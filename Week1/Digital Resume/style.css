@@ -1,0 +1,107 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em; 
+	background-color: #8d8c88;
+	background-image: url(images/Body_bg.jpg);
+	background-repeat: repeat;
+}
+
+header {
+   text-align: center;
+   padding: 0px;
+    
+}
+
+footer {
+   text-align: center;
+    padding: 0px;
+    
+}
+
+#main-content {
+   
+    width: 70%;
+    height: 800px;
+    margin: 100px auto 50px;
+    padding: 0 0 0 0;
+}
+
+#left-content {
+    background-color: whitesmoke;
+    padding: 0 0 0 0;
+    width: 34%;
+    height: 800px;
+    float: left;
+    border: 1px solid black ;
+   
+}
+
+#right-content {
+    background-color: whitesmoke;
+    padding: 0 0 0 0;
+    width: 64%;
+    height: 800px;
+    float: right;
+    border: 1px solid black;
+    
+}
+
+.Personal-Pic {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px 20px 10px;
+    padding: 0 0 0 0;
+}
+
+#main-content h1 {
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #2b2a2a;
+    margin: 30px 0 10px 10px;
+    text-decoration: underline;
+}
+
+
+#main-content h2 {
+    font-size: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #088f03;
+    margin: 5px 0 0 20px;
+}
+
+#main-content h3 {
+    font-size: 12px;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin: 5px 0 0 20px;
+    color: red;
+    font-style: italic; 
+}
+
+p {
+    font-size: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #474749;
+    margin: 5px 10px 5px 20px;
+    text-align: left;
+}
+
+ul  {
+    font-size: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #474749;
+    margin: 5px 10px 30px 10px;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: whitesmoke;
+    margin: 30px 0 10px 10px;
+}
+

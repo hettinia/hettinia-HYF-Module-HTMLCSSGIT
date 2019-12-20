@@ -1,0 +1,33 @@
+Answer 1:
+
+--create a hidden file or folder:
+
+$ touch hi.txt && attrib +h hi.txt
+
+$ mkdir hi && attrib +h hi
+
+--show hidden file or folder:
+
+$ attrib -h hi.txt
+
+$ attrib -h hi
+
+-----------------------------------------------------------------------------
+Answer 2: 
+
+$ mkdir -p /c/Users/Hettini/these/folders/are/just/for/fun
+
+
+-----------------------------------------------------------------------------
+Answer 3:
+
+-method#1:
+
+$ echo "first message
+second message" >> hi.txt
+
+-method#2:
+$ cat >> hi.txt <<EOL
+first message
+second message
+EOL
